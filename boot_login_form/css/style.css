@@ -1,0 +1,64 @@
+body{
+    background-color: #70869E;
+}
+
+input{
+    margin-top: 10px;
+}
+/* CLASSES CSS */
+
+.form-baksa{
+    background-color: #E5EDF6;
+    border-radius: 5px;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    min-height: 28rem;
+    padding: 1px;
+    width: 100%;
+}
+
+.form-check-label{
+    color: rgba(0,0,0,0.7) !important;
+}
+
+.green-text-thing{
+    color: green;
+}
+
+.reg-heading h1{
+    display: inline-block; 
+    color: rgba(0,0,0,0.7);   
+}
+.reg-heading hr{
+    border: 1px solid #CFCCCD;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 10px;
+    width: 12vw;
+}
+
+/* MEDIA QUERIES */
+@media(max-width:500px){
+    .form-baksa{
+        margin-top: 3rem;
+    }
+}
+
+@media(max-width:434px) and (min-width:356px){
+    h1{
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width:355px) and (min-width:338px){
+    h1{
+        font-size: 1.3rem;
+    }
+}
+
+@media(max-width:337px){
+    h1{
+        font-size: 1rem;
+    }
+}
+
